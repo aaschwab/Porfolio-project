@@ -1,5 +1,35 @@
+.root {
+  --font-family: "Poppins", sans-serif;
+  --default-font-family: "Playfair Display", serif;
+}
+
 body {
 }
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--default-font-family);
+  font-size: 66px;
+}
+p {
+  font-family: var(--font-family);
+  font-weight: normal;
+}
+
+.hero {
+  background-color: rgb(220, 255, 255);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-family: var(--font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
 }
